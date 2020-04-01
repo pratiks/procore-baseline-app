@@ -1,0 +1,6 @@
+.env
+public
+node_modules
+npm-debug.*
+yarn-error.log
+build

@@ -1,0 +1,50 @@
+{
+  "name": "blueprint-server-app",
+  "version": "0.0.1",
+  "description": "Example blueprint server app",
+  "main": "app.js",
+  "author": "Procore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "nodemon -r dotenv/config -r esm app",
+    "start": "node -r dotenv/config -r esm app",
+    "format": "prettier --config ./../../prettier.config.js --write src/**/*.{js,jsx}",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@procore/js-sdk": "2.3.0",
+    "app-module-path": "^2.2.0",
+    "bunyan": "^1.8.12",
+    "bunyan-format": "^0.2.1",
+    "cookie-parser": "1.4.4",
+    "cookie-session": "1.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "esm": "3.2.25",
+    "event-emitter": "^0.3.5",
+    "express": "4.17.1",
+    "express-bunyan-logger": "^1.3.3",
+    "express-list-endpoints": "^4.0.1",
+    "express-unless": "^0.5.0",
+    "handlebars": "^4.4.2",
+    "http-errors": "1.6.3",
+    "http-proxy": "1.18.0",
+    "jwt-simple": "^0.5.6",
+    "module-alias": "^2.2.2",
+    "pg": "^7.18.2",
+    "pug": "2.0.4",
+    "request-context": "^2.0.0",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1",
+    "to-unix-timestamp": "^1.0.1"
+  },
+  "devDependencies": {
+    "convict": "^5.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
