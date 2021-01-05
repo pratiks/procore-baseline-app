@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@procore/js-sdk": "^2.3.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "axios-auth-refresh": "^2.2.4",
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
