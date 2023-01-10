@@ -44,7 +44,7 @@
     "to-unix-timestamp": "^1.0.1"
   },
   "devDependencies": {
-    "convict": "^5.2.0",
+    "convict": "^6.2.4",
     "nodemon": "^2.0.2"
   }
 }
