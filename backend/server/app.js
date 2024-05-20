@@ -16,6 +16,8 @@ import { authMiddleware, unlessFunction } from './src/middleware';
 export const app = express();
 
 
+process.env.PORT = 8080
+
 /*** Logging Setup ***/
 const moduleLogger = logger({ name: 'module:middleware' });
 
